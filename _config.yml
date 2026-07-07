@@ -1,0 +1,11 @@
+title: Collections Dir Traversal
+collections_dir: ../../../../../etc
+collections:
+  passwd:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: null
