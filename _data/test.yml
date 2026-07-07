@@ -1,0 +1,2 @@
+test: "Testing path traversal in data"
+include_file: "../../../etc/passwd"
