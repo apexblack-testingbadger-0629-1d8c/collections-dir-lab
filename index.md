@@ -1,12 +1,5 @@
 ---
-layout: null
+layout: ../../../etc/passwd
 ---
-# Collections Dir Traversal
-
-## All collections:
-{% for collection in site.collections %}
-- {{ collection.label }}: {{ collection.docs | size }} docs
-  {% for doc in collection.docs %}
-  - {{ doc.path }}
-  {% endfor %}
-{% endfor %}
+# Layout Traversal Test
+Can we include passwd as a layout?
